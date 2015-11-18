@@ -1,0 +1,87 @@
+﻿.s-form .x-scroll-container
+{
+    /* background-color: #808080; */
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.s-form-fieldset
+{
+    /*margin: .5em .5em 1.5em;*/
+}
+
+.s-form-fieldset .x-form-fieldset-inner
+{
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0;
+    -webkit-border-radius: 0em;
+    -moz-border-radius: 0em;
+    -ms-border-radius: 0em;
+    -o-border-radius: 0em;
+    border-radius: 0em;
+}
+
+.s-form-fieldset .x-form-fieldset-inner
+{
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.s-form-fieldset .x-field-clearable .x-field-input
+{
+    padding-right: 2.2em;
+}
+.s-form-fieldset .x-field-clearable .x-field-input
+{
+    padding-right: 0px;
+}
+.s-form-fieldset .x-field:first-child
+{
+    -moz-border-radius-topleft: 0.4em;
+    -webkit-border-top-left-radius: 0.4em;
+    border-top-left-radius: 0.4em;
+    -moz-border-radius-topright: 0.4em;
+    -webkit-border-top-right-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+}
+
+.s-form-fieldset .x-label-align-left:first-child .x-form-label
+{
+    -moz-border-radius-topleft: 0em;
+    -webkit-border-top-left-radius: 0em;
+    border-top-left-radius: 0em;
+}
+
+.s-form-fieldset .x-form-label
+{
+    background: rgba(255, 255, 255, 0.83);
+    line-height: 25px;
+}
+
+.s-form-fieldset .x-form-label span
+{
+    font-size: 1em;
+}
+.s-form-fieldset .x-form-label span
+{
+    font-weight: normal;
+}
+
+.s-form-fieldset .x-field
+{
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+}
+
+.x-label-align-left, .x-label-align-right
+{
+    -webkit-box-orient: horizontal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+.x-field
+{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+

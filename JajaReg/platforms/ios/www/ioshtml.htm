@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="jquery-1.4.1.min.js"></script>
+    <script type="text/javascript">
+        $.ajax({
+            type: "POST",
+            url: 'http://' + ip + '/Ashx/' + className + '.ashx',
+            async: false,
+            data: this.setItem(data.key, value),
+            dataType: 'text',
+            error: function (message, textStatus, jqXHR) {
+                console.log(message);
+                console.log(textStatus);
+                console.log(jqXHR);
+                errorCallBack(message);
+            },
+            success: function (message, textStatus, jqXHR) {
+                calback(message);
+            }
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
